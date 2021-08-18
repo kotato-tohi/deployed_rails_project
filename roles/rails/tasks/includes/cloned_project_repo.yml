@@ -1,0 +1,5 @@
+- name: cloned project repo
+  git:
+    repo: https://github.com/kotato-tohi/vai_pj.git
+    dest: /home/{{ __working_user }}/{{ __pj_name }}
+    

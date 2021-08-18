@@ -1,0 +1,5 @@
+- name: deployed rails.conf rails.conf配置
+  template:
+    src: rails.conf
+    dest: /etc/nginx/conf.d/rails.conf
+  become: yes

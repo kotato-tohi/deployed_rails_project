@@ -1,0 +1,2 @@
+__root_path_link: /home/{{ __working_user }}/root_path_link
+__unicorn_socket_link_path: /home/{{ __working_user }}/unicorn_socket_link_path

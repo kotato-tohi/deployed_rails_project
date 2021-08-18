@@ -1,0 +1,3 @@
+- include: includes/check_installed_nginx.yml
+- include: includes/installed_nginx.yml
+- include: includes/started_nginx.yml
