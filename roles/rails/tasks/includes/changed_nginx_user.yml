@@ -1,0 +1,8 @@
+- name: changed nginx user
+  lineinfile:
+    backup: yes
+    dest: /etc/nginx/nginx.conf
+    state: present
+    regexp: '^user nginx'
+    line: 'user {{ __working_user }};'
+  become: yes

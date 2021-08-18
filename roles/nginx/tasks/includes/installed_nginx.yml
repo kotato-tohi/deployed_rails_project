@@ -1,0 +1,4 @@
+- name: installed nginx
+  shell: amazon-linux-extras install -y nginx1
+  when: nginx_installed_status.results | selectattr("yumstate", "match", "installed") | list | length == 0
+  become: yes

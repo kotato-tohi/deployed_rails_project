@@ -1,0 +1,3 @@
+- include: includes/deployed_nginx_rails_conf.yml
+- include: includes/cloned_project_repo.yml
+- include: includes/changed_nginx_user.yml

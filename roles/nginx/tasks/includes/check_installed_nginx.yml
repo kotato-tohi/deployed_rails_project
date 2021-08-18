@@ -1,0 +1,4 @@
+- name: nginx installed check
+  yum:
+    list: nginx
+  register: nginx_installed_status
