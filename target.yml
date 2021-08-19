@@ -1,6 +1,6 @@
 - hosts: target
   roles:
+    - nginx
     - rails
-    # - nginx
-    #- bundler
+    - bundler
     

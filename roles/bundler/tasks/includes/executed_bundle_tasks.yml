@@ -1,0 +1,9 @@
+- name: executed bundle installe
+  shell: bash -lc "bundle install"
+  args: 
+    chdir: /home/{{__working_user}}/{{__pj_name}}
+
+- name: compired asset files
+  shell: bash -lc "bundle exec rails assets:precompile RAILS_ENV=production"
+  args: 
+    chdir: /home/{{__working_user}}/{{__pj_name}}

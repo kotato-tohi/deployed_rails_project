@@ -2,9 +2,4 @@
   git:
     repo: https://github.com/kotato-tohi/vai_pj.git
     dest: /home/{{ __working_user }}/{{ __pj_name }}
-  register: git_result
-
-- name: debug result
-  debug: 
-    var: git_result
-    
+    force: yes

@@ -1,2 +1,0 @@
-DATABASE_PASSWORD={{ __database_password }}
-SECRET_KEY_BASE={{ key.stdout }}
